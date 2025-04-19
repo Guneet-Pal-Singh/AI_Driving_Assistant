@@ -17,7 +17,10 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     raise ValueError("GOOGLE_API_KEY is missing.")
 
+# Configure the API key
 genai.configure(api_key=GOOGLE_API_KEY)
+
+# Initialize the model
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 CAR_SAFETY_KB = {
@@ -107,5 +110,4 @@ def chat():
         return jsonify({"error": f"Request timed out or failed: {str(e)}"}), 500
 
 if __name__ == "__main__":
-    # app.run(host="0.0.0.0", port=5000, threaded=True)
     app.run()
