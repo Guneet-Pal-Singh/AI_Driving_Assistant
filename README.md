@@ -110,14 +110,6 @@ pip install -r requirements.txt
 Pull requests, issues, and suggestions are welcome!  
 Please open an issue to discuss your ideas or report bugs.
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙏 Acknowledgements
 
 - [Google Gemini API](https://ai.google.dev/)
@@ -126,6 +118,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 > Drive safe, drive smart! 🚦
 
----
 
-**Note:** Replace `yourusername` with your actual GitHub username and update repository links as needed.
